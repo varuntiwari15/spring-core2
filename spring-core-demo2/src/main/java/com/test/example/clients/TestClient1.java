@@ -6,7 +6,7 @@ public class TestClient1 {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig1.class);
         context.registerShutdownHook(); // used to call destroy methods
-        //output
+        //output-- normally ordering of bean creation is not predictable
        // beanA constructor
        // BeanA Post construct method
        // BeanA1 constructor
