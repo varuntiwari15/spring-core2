@@ -15,10 +15,12 @@ public class TestClient {
         //*********advanced account types**************
         //[fixed deposit account, recurring deposit account]
         // output1 is unordered output because in which order container will manage bean creation, we dont know
-        // lets we want some ordering as --> saving, reccuring, fixed, checking -- follow run-3
+        // lets we want some ordering as --> saving, reccuring, fixed, checking--> use @Order --run-3
+        // or Ordered interface-- run-4
         //output-3
         //*********basic account types**************
         //[saving account, recurring deposit account, fixed deposit account, checking account]
+        // for ordered interface same output as 3
 
 
     }
