@@ -21,7 +21,7 @@ public class TestClient {
        //         CountryCanada
     }
 
-    private static void runApp(Locale locale) {
+    public static void runApp(Locale locale) {
         System.out.printf("setting default locale for app : %s\n", locale);
         Locale.setDefault(locale);
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(TestClient.class);
