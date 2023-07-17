@@ -1,0 +1,3 @@
+hello to spring core tuto,
+currently we are discussing ResourceLoader
+and Resource interface
